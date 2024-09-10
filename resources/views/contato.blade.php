@@ -16,14 +16,14 @@
 
     <form action="{{ url('/contato') }}" method="POST">
         @csrf
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message" required></textarea>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
 
         <button type="submit">Enviar</button>
     </form>
